@@ -8,6 +8,9 @@ php:
   - 7.3
   - nightly
 
+before_install:
+  - composer self:update
+
 before_script:
   - cd taskmanager/
   - travis_retry composer install
