@@ -9,7 +9,7 @@ php:
   - nightly
 
 before_install:
-  - composer self:update
+  - composer self-update
 
 before_script:
   - cd taskmanager/
