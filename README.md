@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/webphpprojects/upskilling-2nd-edition.svg?branch=feature%2Ftravis)](https://travis-ci.org/webphpprojects/upskilling-2nd-edition)
+
 # Task Manager
 Self learning project
 
