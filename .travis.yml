@@ -12,3 +12,8 @@ before_script:
 script:
   - ./vendor/bin/phpspec run
   - ./vendor/bin/behat
+
+matrix:
+  allow_failures:
+    - php: 7.3
+    - php: nightly
