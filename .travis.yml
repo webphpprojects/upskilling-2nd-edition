@@ -23,5 +23,9 @@ matrix:
     - php: 7.3
     - php: nightly
 
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
 notifications:
   email: false
